@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+h1{
+    background-color: rgb(48, 0, 24);
+    color: coral;
+}
+h2{
+    background-color: rgb(48, 0, 24);
+    color: indianred;
+}
+p{
+    background-color: rgb(122, 0, 61);
+    color: crimson;
+    font-size: larger;
+}
