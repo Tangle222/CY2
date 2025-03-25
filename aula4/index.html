@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mrdoe</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            width: 100vw;
+            height: 300px;
+            background-color: black;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+        header p{
+            margin-top: 30px;
+        }
+        main{
+            width: 600px;
+            background-color: black;
+            color: white;
+        }
+        nav{
+            background-color: black;
+            text-align: center;
+        }
+        nav a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 100px;
+        }
+        nav a:hover{
+            color: red;
+        }
+        svg {
+            border: 1px solid rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>blog do giovanni</h1>
+        <p>aqui voce encontra as ultimas noticias sobre sonic</p>
+    </header>
+    <nav>
+        <a href="">whats new</a>
+        <a href="https://youtu.be/JQfKatNaKSQ?si=6G60oN0wHEULmGTH">games</a>
+        <a href="">loja</a>
+    </nav>
+    <main>
+        <article>
+            <section>
+                <h2>sonic x shadow generations</h2>
+                <svg width="300" height="300">
+                    <rect x="100" y="30" width="100" height="100" fill="blue"></rect>
+                    <rect x="30" y="100" width="100" height="100" fill="red"></rect>
+                    <circle r="25" cx="150" cy="150" fill="grey">
+                        <animate attributename="r" from="25" to="50" dur="0.5s" repeatcount="indefinite"></animate>
+                    </circle>
+                    <polygon points="100, 220 200, 220 150, 280" fill="gray"></polygon>
+                </svg>
+            </section>
+            <section>
+                <h2>sonic rumble</h2>
+                <p>metal sonic boss sonic mania</p>
+                <audio src="youtube_6WVFIUxmCs8_audio.mp3" controls></audio>
+            </section>
+            <section>
+                <h2>sonic frontiers</h2>
+                <p>abertura shadow the hedgehog ps2</p>
+                <video src="https://www.powersonic.com.br/files/videos/Shadow%20the%20Hedgehog%20HD.mp4" width="500" controls></video>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
